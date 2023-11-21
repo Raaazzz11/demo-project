@@ -6,19 +6,20 @@ body{
 
 
 h1{
-    font-style: italic;
-    font-size: 150px;
+    /* font-style: italic; */
+    font-size: 50px;
     margin-top: 80px;
-    border: none;
-    color: white;
+    font-style: italic;
+    /* border: none;
+    color: wheat;
     padding: 15px 32px ;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
     position: relative;
-    overflow: hidden;     
-}
+    overflow: hidden;      */
+} 
 
 
 
@@ -29,18 +30,18 @@ h1:hover::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: grey;
-    animation: anime 3s forwards;
+    background-color: rgb(78, 74, 74);
+    animation: anime 3s backwards;
 }
 
 @keyframes anime{
 
-    0%{
-        transform:translateX(0%);
+    100%{
+        transform:translateX(100%);
     }
 
-    100%{
-        transform: translateX(100%);
+    0%{
+        transform: translateX(0%);
     }
 }
 
